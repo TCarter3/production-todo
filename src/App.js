@@ -16,7 +16,7 @@ class App extends React.Component {
     return (
       <Container>
         <Segment textAlign="center">
-          <Header as="h3" textAlign="center">Todo List</Header>
+          <Header color="blue" as="h3" textAlign="center">Todo List</Header>
           <Form onSubmit={this.handleSubmit}>
             <Input 
               required
